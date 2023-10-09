@@ -1,0 +1,8 @@
+prefix=/media/zhutianyi/KESU/project/catkin_clocs/install
+
+Name: get_data
+Description: Description of get_data
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

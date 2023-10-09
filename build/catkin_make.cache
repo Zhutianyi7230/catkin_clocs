@@ -1,0 +1,2 @@
+clocs:get_data
+-DCATKIN_DEVEL_PREFIX=/media/zhutianyi/KESU/project/catkin_clocs/devel -DCMAKE_INSTALL_PREFIX=/media/zhutianyi/KESU/project/catkin_clocs/install -G Unix Makefiles

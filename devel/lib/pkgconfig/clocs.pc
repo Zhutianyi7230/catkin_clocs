@@ -1,0 +1,8 @@
+prefix=/media/zhutianyi/KESU/project/catkin_clocs/devel
+
+Name: clocs
+Description: Description of clocs
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

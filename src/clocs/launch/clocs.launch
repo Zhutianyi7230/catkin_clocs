@@ -1,0 +1,13 @@
+<launch>
+  <node name="publisher" pkg="clocs" type="publisher.py" output="screen" />
+  <node name="clocs_fusion" pkg="clocs" type="clocs_fusion.py" output="screen">
+
+  <param name="det2d_topic_in"     value="/det2d_array" />
+  <param name="det3d1_topic_in"     value="/det3d_array1" />
+  <param name="det3d2_topic_in"     value="/det3d_array2" />
+  <param name="rect_topic_in"     value="/rect_array" />
+  <param name="Trv2c_topic_in"     value="/Trv2c_array" />
+  <param name="P2_topic_in"     value="/P2_array" />
+
+  </node>
+</launch>

@@ -1,0 +1,21 @@
+catkin_clocs是一个ros包，在我的ubuntu18上是无法运行的。
+需要对应的环境：
+
+1.ros + torch后融合推理环境配置
+(服务器90.90.9.227)
+(库安装位置：/home/data/z50032690/)
+(代码文件夹位置：/home/data/catkin_clocs)
+pip install torch==1.10.0 --target=/home/data/z50032690/
+pip install mmcv==2.0.0rc4 --target=/home/data/z50032690/
+pip install onnxruntime --target=/home/data/z50032690/
+pip install numpy==1.23.4 --target=/home/data/z50032690/
+pip install numba --target=/home/data/z50032690/
+
+
+2.运行catkin_clocs
+vim ~/.bashrc & export  PYTHONPATH=$PYTHONPATH:/home/data/z50032690
+source ~/.bashrc
+source /opt/ros/noetic/setup.bash
+source /home/data/catkin_clocs/devel/setup.bash
+roslaunch cloc cloc.launch
+
