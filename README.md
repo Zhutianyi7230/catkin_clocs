@@ -21,6 +21,14 @@ Install dependencies.
     source /home/data/catkin_clocs/devel/setup.bash
     roslaunch cloc cloc.launch
 
+## Citation
+Thanks for the great work by the author.
 
-
+        @article{pang2020clocs,
+          title={CLOCs: Camera-LiDAR Object Candidates Fusion for 3D Object Detection},
+          author={Pang, Su and Morris, Daniel and Radha, Hayder},
+          booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+          year={2020}
+          organization={IEEE}
+        }
 
