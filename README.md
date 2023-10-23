@@ -15,11 +15,11 @@ Install dependencies.
 
 ##  Run  catkin_clocs
 
-    vim ~/.bashrc & export  PYTHONPATH=$PYTHONPATH:/home/data/z50032690
+    vim ~/.bashrc & export  PYTHONPATH=$PYTHONPATH:/path/to/your/dependencies
     source ~/.bashrc
     source /opt/ros/noetic/setup.bash
     source /home/data/catkin_clocs/devel/setup.bash
-    roslaunch cloc cloc.launch
+    roslaunch clocs clocs.launch
 
 ## Citation
 Thanks for the great work by the author.
